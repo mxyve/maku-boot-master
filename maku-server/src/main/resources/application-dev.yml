@@ -20,9 +20,9 @@ spring:
         master:
           # MySQL8
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://localhost:3306/maku_boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
-          username: root
-          password: 123456
+          url: jdbc:mysql://rm-gc7vz5fpb4ap2t5325o.mysql.cn-chengdu.rds.aliyuncs.com:3306/iot_group1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+          username: iot_group1
+          password: iot_group1_&
           # PostgreSQL
 #          driver-class-name: org.postgresql.Driver
 #          url: jdbc:postgresql://192.168.3.19:5432/postgres
